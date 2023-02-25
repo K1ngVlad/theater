@@ -1,0 +1,17 @@
+@use '../../colors.scss';
+
+.title {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+
+.golden {
+  color: colors.$gold;
+}

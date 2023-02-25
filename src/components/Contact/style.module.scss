@@ -1,0 +1,46 @@
+.contact {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 86px;
+  width: 150px;
+  height: 1045px;
+  background: rgba(51, 51, 51, 0.75);
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 174px;
+}
+
+.title {
+  position: relative;
+  margin-bottom: 160px;
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #c4c4c4;
+  transform: rotate(-90deg) translateX(50%);
+  white-space: nowrap;
+  width: 242px;
+}
+
+.title::after {
+  position: absolute;
+  content: '';
+  width: 80px;
+  height: 3px;
+  background: rgba(196, 196, 196, 1);
+  left: -40px;
+  top: 50%;
+  transform: translate(-100%, -50%);
+}

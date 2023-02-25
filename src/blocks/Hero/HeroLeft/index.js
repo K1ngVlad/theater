@@ -1,0 +1,1 @@
+export { HeroLeft } from './HeroLeft';
