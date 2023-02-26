@@ -1,0 +1,20 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 150px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 1110px;
+  //   height: 292px;
+}
+
+.img {
+  width: 350px;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}

@@ -1,5 +1,16 @@
 @use './colors.scss';
 
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-weight: 300;
+  src: url(./fonts/OpenSansCondensed/OpenSansCondensed-Light.ttf);
+}
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-weight: 700;
+  src: url(./fonts/OpenSansCondensed/OpenSansCondensed-Bold.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -1,0 +1,1 @@
+Condensed версия шрифта Open Sans

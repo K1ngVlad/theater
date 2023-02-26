@@ -1,0 +1,45 @@
+.posterNav {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  background: none;
+  span {
+    transition-duration: 0.3s;
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .left {
+    transition-duration: 0.3s;
+    margin-right: 25px;
+    transform: rotate(180deg);
+  }
+
+  .right {
+    transition-duration: 0.3s;
+    margin-left: 25px;
+  }
+  &:hover {
+    .left,
+    .right {
+      opacity: 0.75;
+    }
+    span {
+      color: rgba(196, 196, 196, 1);
+    }
+  }
+}
+
+// .left,
+// .right {
+//   &:hover {
+//     opacity: 0.75;
+//   }
+// }
