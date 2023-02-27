@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/theater/static/css/main.b8d12367.css",
+    "main.js": "/theater/static/js/main.caa20920.js",
+    "static/media/hero.png": "/theater/static/media/hero.aeaef8d4ad964f74d969.png",
+    "static/media/photo_2.png": "/theater/static/media/photo_2.fe3b8dc2cb947339e78c.png",
+    "static/media/poster.png": "/theater/static/media/poster.06f15f4ea6838335e453.png",
+    "static/media/rating.png": "/theater/static/media/rating.032bac320310c53853c7.png",
+    "static/media/photo_1.png": "/theater/static/media/photo_1.fd19a40b4393705bedff.png",
+    "static/media/photo_4.png": "/theater/static/media/photo_4.4383d487de0364eb286e.png",
+    "static/media/photo_3.png": "/theater/static/media/photo_3.7a790b097f9f064ca66b.png",
+    "static/media/OpenSansCondensed-Bold.ttf": "/theater/static/media/OpenSansCondensed-Bold.07d2f62d6fdec88a9ab8.ttf",
+    "static/media/OpenSansCondensed-Light.ttf": "/theater/static/media/OpenSansCondensed-Light.c163582f7fc22b037d01.ttf",
+    "static/media/theater_photo.png": "/theater/static/media/theater_photo.faa7b345cbbc9f8ff99a.png",
+    "static/media/theater.svg": "/theater/static/media/theater.813071109cf99ece8700497a62916226.svg",
+    "static/media/armchair.svg": "/theater/static/media/armchair.c66096339954be9c909c0949e892a0a6.svg",
+    "static/media/vk.svg": "/theater/static/media/vk.d892d5d7664de6c29135ace8d626aa24.svg",
+    "static/media/gasprom.svg": "/theater/static/media/gasprom.86f22a9b20dc5563f70b42279a9813c4.svg",
+    "static/media/instagram.svg": "/theater/static/media/instagram.9f9df08d92f60fa87eaf145cb1d71846.svg",
+    "static/media/search.svg": "/theater/static/media/search.4cee8c7452688eb5a8441c27e0300e1c.svg",
+    "static/media/facebook.svg": "/theater/static/media/facebook.f01ed858de9f82801efe5ffb846ae72f.svg",
+    "index.html": "/theater/index.html",
+    "static/media/rightArrow.svg": "/theater/static/media/rightArrow.fa0358c052a7a303b6e60ba1e2640b57.svg",
+    "static/media/youtube.svg": "/theater/static/media/youtube.426498b4e589d11e2a5a465a8f0edaaa.svg",
+    "static/media/star.svg": "/theater/static/media/star.23da8f7b01d9765caf8ee9611f60c32d.svg",
+    "main.b8d12367.css.map": "/theater/static/css/main.b8d12367.css.map",
+    "main.caa20920.js.map": "/theater/static/js/main.caa20920.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8d12367.css",
+    "static/js/main.caa20920.js"
+  ]
+}
