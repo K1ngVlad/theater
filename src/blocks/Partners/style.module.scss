@@ -1,0 +1,13 @@
+.partners {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 96px 96px;
+  gap: 80px;
+}

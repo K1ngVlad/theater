@@ -25,8 +25,8 @@ const PosterSwiper = () => {
       >
         {api.map((e) => {
           return (
-            <SwiperSlide>
-              <img alt="poster" className={s.poster} key={e.id} src={e.img} />
+            <SwiperSlide key={e.id}>
+              <img alt="poster" className={s.poster} src={e.img} />
             </SwiperSlide>
           );
         })}

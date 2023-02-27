@@ -1,0 +1,23 @@
+@use '../../../../colors.scss';
+
+.input {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  padding: 5px 0 0 15px;
+  background: #444444;
+  border: 1px solid #616161;
+  transition-duration: 0.3s;
+  outline: none;
+
+  &:focus {
+    background: #555555;
+    &::placeholder {
+      color: colors.$gold;
+    }
+  }
+  &::placeholder {
+    transition-duration: 0.3s;
+    color: #989898;
+  }
+}

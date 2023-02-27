@@ -17,4 +17,11 @@
   border: none;
   outline: none;
   cursor: pointer;
+  transition-duration: 0.3s;
+  &:hover {
+    opacity: 0.75;
+  }
+  &:active {
+    background: colors.$black;
+  }
 }

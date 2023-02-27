@@ -1,4 +1,8 @@
 .icon {
   width: auto;
   height: auto;
+  transition-duration: 0.3s;
+  &:hover {
+    transform: scale(1.1) rotate(30deg);
+  }
 }

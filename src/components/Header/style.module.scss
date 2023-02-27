@@ -28,6 +28,13 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
   text-decoration: none;
+  transition-duration: 0.3s;
+  &:hover {
+    color: colors.$gold;
+  }
+  &:active {
+    color: colors.$black;
+  }
 }
 
 .phone::after {

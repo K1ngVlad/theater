@@ -1,0 +1,21 @@
+.footer {
+  position: relative;
+  padding-top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 158px;
+  div {
+    width: 1110px;
+    border-top: 1px solid #565656;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 150%;
+      color: #989898;
+    }
+  }
+}

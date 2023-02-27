@@ -1,12 +1,19 @@
 @use '../../../colors.scss';
 
-.navLink {
+.contactBox {
+  height: 143px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.link {
   font-family: 'Open Sans Condensed';
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 25px;
-  letter-spacing: 0.1em;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   text-decoration: none;
   transition-duration: 0.3s;

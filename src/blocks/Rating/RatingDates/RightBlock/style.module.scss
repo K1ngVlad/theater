@@ -1,0 +1,19 @@
+.rightBlock {
+  div {
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    height: 24px;
+    margin-bottom: 25px;
+    img {
+      height: 100%;
+    }
+  }
+  p {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    width: 540px;
+    white-space: pre-line;
+  }
+}
