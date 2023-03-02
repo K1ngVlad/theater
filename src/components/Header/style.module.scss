@@ -47,3 +47,14 @@
   height: 2px;
   background: colors.$gold;
 }
+
+@media screen and (max-width: 1600px) {
+  .header {
+    width: auto;
+    flex-direction: column;
+    height: 102px;
+    .nav {
+      width: 692px;
+    }
+  }
+}

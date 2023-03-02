@@ -6,19 +6,19 @@ const api = [
     img,
   },
   {
-    id: 0,
+    id: 1,
     img,
   },
   {
-    id: 0,
+    id: 2,
     img,
   },
   {
-    id: 0,
+    id: 3,
     img,
   },
   {
-    id: 0,
+    id: 4,
     img,
   },
 ];

@@ -18,3 +18,18 @@
   object-position: center;
   object-fit: cover;
 }
+
+@media screen and (max-width: 1600px) {
+  .about {
+    padding: 150px 120px 0 190px;
+    .title {
+    }
+    .container {
+      max-width: 800px;
+      width: 100%;
+      .img {
+        display: none;
+      }
+    }
+  }
+}

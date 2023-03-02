@@ -11,7 +11,7 @@ import s from './style.module.scss';
 const About = () => {
   return (
     <section className={cx(s.about)}>
-      <Title>О ТЕАТРЕ</Title>
+      <Title className={cx(s.title)}>О ТЕАТРЕ</Title>
       <div className={cx(s.container)}>
         <AboutText />
         <AboutNumber />

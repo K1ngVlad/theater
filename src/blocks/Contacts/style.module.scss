@@ -9,3 +9,14 @@
     justify-content: space-between;
   }
 }
+
+@media screen and (max-width: 1600px) {
+  .contacts {
+    padding: 120px 120px 0 190px;
+    .container {
+      width: 100%;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  }
+}

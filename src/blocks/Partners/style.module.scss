@@ -6,8 +6,26 @@
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 200px 200px 200px 200px;
-  grid-template-rows: 96px 96px;
-  gap: 80px;
+  width: 1034px;
+  height: 272px;
+}
+
+.swiper {
+  height: 100%;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px !important;
+}
+
+@media screen and (max-width: 1600px) {
+  .partners {
+    padding: 150px 120px 0 190px;
+    .container {
+      width: 100%;
+    }
+  }
 }

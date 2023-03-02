@@ -20,3 +20,12 @@
   width: 442px !important;
   height: 550px !important;
 }
+
+@media screen and (max-width: 1600px) {
+  .projects {
+    padding: 150px 120px 0 190px;
+    .container {
+      width: 100%;
+    }
+  }
+}
