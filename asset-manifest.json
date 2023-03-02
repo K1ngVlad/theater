@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/theater/static/css/main.b8d12367.css",
-    "main.js": "/theater/static/js/main.caa20920.js",
+    "main.css": "/theater/static/css/main.ef00dc81.css",
+    "main.js": "/theater/static/js/main.8561ff88.js",
     "static/media/hero.png": "/theater/static/media/hero.aeaef8d4ad964f74d969.png",
     "static/media/photo_2.png": "/theater/static/media/photo_2.fe3b8dc2cb947339e78c.png",
     "static/media/poster.png": "/theater/static/media/poster.06f15f4ea6838335e453.png",
@@ -23,11 +23,11 @@
     "static/media/rightArrow.svg": "/theater/static/media/rightArrow.fa0358c052a7a303b6e60ba1e2640b57.svg",
     "static/media/youtube.svg": "/theater/static/media/youtube.426498b4e589d11e2a5a465a8f0edaaa.svg",
     "static/media/star.svg": "/theater/static/media/star.23da8f7b01d9765caf8ee9611f60c32d.svg",
-    "main.b8d12367.css.map": "/theater/static/css/main.b8d12367.css.map",
-    "main.caa20920.js.map": "/theater/static/js/main.caa20920.js.map"
+    "main.ef00dc81.css.map": "/theater/static/css/main.ef00dc81.css.map",
+    "main.8561ff88.js.map": "/theater/static/js/main.8561ff88.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8d12367.css",
-    "static/js/main.caa20920.js"
+    "static/css/main.ef00dc81.css",
+    "static/js/main.8561ff88.js"
   ]
 }
