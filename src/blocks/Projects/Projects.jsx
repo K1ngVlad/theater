@@ -13,7 +13,7 @@ import { ProjectSlide } from './ProjectSlide';
 
 const Projects = () => {
   return (
-    <section className={cx(s.projects)}>
+    <section id="projects" className={cx(s.projects)}>
       <Title>наши постановки</Title>
       <div className={cx(s.container)}>
         <Swiper

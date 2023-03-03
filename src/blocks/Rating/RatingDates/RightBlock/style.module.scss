@@ -17,3 +17,31 @@
     white-space: pre-line;
   }
 }
+
+@media screen and (max-width: 1600px) {
+  .rightBlock {
+    p {
+      width: 450px;
+      font-size: 34px;
+      width: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .rightBlock {
+    p {
+      width: 388px;
+      font-size: 29px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .rightBlock {
+    p {
+      width: 340px;
+      font-size: 25px;
+    }
+  }
+}

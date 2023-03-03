@@ -20,7 +20,7 @@ for (let i = 0; i < api.length / 2; i++) {
 
 const Partners = () => {
   return (
-    <section className={cx(s.partners)}>
+    <section id="partners" className={cx(s.partners)}>
       <Title>партнеры театра</Title>
       <div className={cx(s.container)}>
         <Swiper

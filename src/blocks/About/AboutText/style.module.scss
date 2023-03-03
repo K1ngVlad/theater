@@ -19,5 +19,14 @@
   line-height: 150%;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 767px) {
+  .aboutText {
+    margin-bottom: 27px;
+    .title {
+      text-align: center;
+    }
+    .text {
+      text-align: center;
+    }
+  }
 }

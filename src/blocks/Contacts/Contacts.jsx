@@ -7,7 +7,7 @@ import s from './style.module.scss';
 
 const Contacts = () => {
   return (
-    <section className={cx(s.contacts)}>
+    <section id="contacts" className={cx(s.contacts)}>
       <Title>стать меценатом</Title>
       <div className={cx(s.container)}>
         <ContactBox />

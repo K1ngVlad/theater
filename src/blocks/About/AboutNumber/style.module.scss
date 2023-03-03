@@ -39,3 +39,11 @@
     width: 208px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .aboutNumber {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -10,7 +10,7 @@ import s from './style.module.scss';
 
 const About = () => {
   return (
-    <section className={cx(s.about)}>
+    <section id="about" className={cx(s.about)}>
       <Title className={cx(s.title)}>О ТЕАТРЕ</Title>
       <div className={cx(s.container)}>
         <AboutText />

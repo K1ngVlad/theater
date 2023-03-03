@@ -14,9 +14,25 @@
   .contacts {
     padding: 120px 120px 0 190px;
     .container {
+      max-width: 730px;
       width: 100%;
       flex-direction: column-reverse;
       align-items: center;
     }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .contacts {
+    padding: 90px 39px 0 39px;
+    .container {
+      max-width: 690px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .partners {
+    padding: 80px 33px 0 33px;
   }
 }

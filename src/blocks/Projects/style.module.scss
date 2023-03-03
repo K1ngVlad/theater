@@ -29,3 +29,18 @@
     }
   }
 }
+
+@media screen and (max-width: 991px) {
+  .projects {
+    padding: 90px 39px 0 39px;
+    .container {
+      align-self: center;
+      max-width: 690px;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .projects {
+    padding: 80px 33px 0 33px;
+  }
+}

@@ -17,3 +17,9 @@
   font-family: 'Open Sans Condensed';
   font-weight: 300;
 }
+
+@media screen and (max-width: 991px) {
+  .title {
+    margin-bottom: 60px;
+  }
+}

@@ -25,7 +25,23 @@
   .partners {
     padding: 150px 120px 0 190px;
     .container {
+      max-width: 1034px;
       width: 100%;
     }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .partners {
+    padding: 90px 39px 0 39px;
+    .container {
+      max-width: 690px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .partners {
+    padding: 80px 33px 0 33px;
   }
 }

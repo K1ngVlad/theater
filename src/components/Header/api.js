@@ -1,23 +1,23 @@
 const api = [
   {
     name: 'ГЛАВНАЯ',
-    link: './',
+    link: '#hero',
   },
   {
     name: 'О ТЕАТРЕ',
-    link: './',
+    link: '#about',
   },
   {
     name: 'НАШИ ПОСТАНОВКИ',
-    link: './',
+    link: '#projects',
   },
   {
     name: 'ПАРТНЁРЫ ТЕАТРА',
-    link: './',
+    link: '#partners',
   },
   {
     name: 'КОНТАКТЫ',
-    link: './',
+    link: '#contacts',
   },
 ];
 

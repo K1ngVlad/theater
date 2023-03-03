@@ -48,3 +48,25 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .contactForm {
+    height: auto;
+    justify-content: flex-start;
+    .inputs {
+      height: 230px;
+      grid-template:
+        'name company'
+        'phone mail'
+        'message message';
+    }
+    .botForm {
+      margin-top: 40px;
+      flex-direction: column-reverse;
+      .formText {
+        margin-top: 30px;
+        text-align: center;
+      }
+    }
+  }
+}

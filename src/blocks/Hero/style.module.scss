@@ -1,4 +1,5 @@
 .hero {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,8 +19,28 @@
 }
 
 @media screen and (max-width: 1600px) {
-  .container {
-    width: auto;
-    transform: translateX(-35px);
+  .hero {
+    padding: 267px 260px 208px 190px;
+    .container {
+      width: auto;
+      justify-content: center;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .hero {
+    height: 800px;
+    padding: 267px 33px 208px 33px;
+    .container {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero {
+    height: 600px;
+    padding: 197px 33px 107px 33px;
   }
 }

@@ -1,6 +1,7 @@
 @use '../../colors.scss';
 
 .header {
+  z-index: 10;
   position: absolute;
   display: flex;
   align-items: center;
@@ -9,6 +10,20 @@
   left: 50%;
   transform: translateX(-50%);
   width: 1110px;
+}
+
+.burgerBtn {
+  display: none;
+  background: none;
+  border: none;
+  outline: none;
+  transition-duration: 0.3s;
+  &:hover {
+    transform: scale(1.2);
+  }
+  &:active {
+    transform: scale(1.1);
+  }
 }
 
 .nav {
@@ -55,6 +70,39 @@
     height: 102px;
     .nav {
       width: 692px;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .header {
+    top: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+    padding: 60px 33px 0 39px;
+    flex-direction: row;
+    .nav {
+      display: none;
+    }
+    .burgerBtn {
+      display: block;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .header {
+    top: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+    padding: 60px 33px 0 39px;
+    flex-direction: row;
+    .nav {
+      display: none;
+    }
+    .burgerBtn {
+      display: block;
     }
   }
 }

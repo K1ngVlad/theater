@@ -24,7 +24,23 @@
   .footer {
     padding: 80px 120px 0 190px;
     div {
+      max-width: 1110px;
       width: 100%;
     }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .footer {
+    padding: 60px 39px 0 39px;
+    div {
+      max-width: 690px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .partners {
+    padding: 60px 33px 0 33px;
   }
 }

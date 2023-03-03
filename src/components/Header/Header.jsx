@@ -1,11 +1,16 @@
 import cx from 'classnames';
 
-import s from './style.module.scss';
-
 import { api } from './api';
 import { NavLink } from './NavLink';
 
-const Header = () => {
+import img from '../../assets/svg/bx-menu.svg';
+
+import s from './style.module.scss';
+
+const Header = (props) => {
+  const onClickHeandler = () => {
+    props.setPopUp(true);
+  };
   return (
     <header className={cx(s.header)}>
       <nav className={cx(s.nav)}>
@@ -17,6 +22,9 @@ const Header = () => {
           );
         })}
       </nav>
+      <button onClick={onClickHeandler} className={cx(s.burgerBtn)}>
+        <img alt="nav" src={img} />
+      </button>
       <a className={cx(s.phone)} href="./">
         +7 495 123-45-67
       </a>

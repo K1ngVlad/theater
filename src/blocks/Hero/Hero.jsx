@@ -1,12 +1,14 @@
 import cx from 'classnames';
+import { BurgerMenu } from '../../components/BurgerMenu/BurgerMenu';
 import { HeroLeft } from './HeroLeft';
 import { PosterSwiper } from './PosterSwiper';
 
 import s from './style.module.scss';
 
-const Hero = () => {
+const Hero = (props) => {
   return (
-    <section className={cx(s.hero)}>
+    <section id="hero" className={cx(s.hero)}>
+      <BurgerMenu popUp={props.popUp} setPopUp={props.setPopUp} />
       <div className={cx(s.container)}>
         <HeroLeft />
         <PosterSwiper />

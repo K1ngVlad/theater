@@ -9,7 +9,7 @@
 .container {
   display: flex;
   align-items: center;
-  padding-left: 190px;
+  padding: 0 110px 0 190px;
   width: 1110px;
   height: 550px;
   background: url(../../assets/background/rating.png) 100% 100% no-repeat;
@@ -26,6 +26,38 @@
 
 @media screen and (max-width: 1600px) {
   .container {
+    max-width: 1110px;
     width: 100%;
+    .box {
+      width: 690px;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .rating {
+    padding-top: 90px;
+    .container {
+      justify-content: center;
+      padding: 0;
+      .box {
+        width: auto;
+        // justify-content: center;
+        width: 580px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .rating {
+    padding-top: 80px;
+    .container {
+      padding: 0;
+      justify-content: center;
+      .box {
+        width: 530px;
+      }
+    }
   }
 }

@@ -1,0 +1,88 @@
+@use '../../colors.scss';
+
+.burgerMenu {
+  z-index: 50;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 38px;
+  width: 300px;
+  height: 100%;
+  background: colors.$black;
+  transform: translateX(-300px);
+  transition-duration: 0.5s;
+  &.active {
+    transform: translateX(0);
+  }
+  button {
+    align-self: flex-end;
+    background: none;
+    border: none;
+    outline: none;
+    transition-duration: 0.3s;
+    &:hover {
+      transform: scale(1.2);
+    }
+    &:active {
+      transform: scale(1.1);
+    }
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 86px;
+    height: 305px;
+    justify-content: space-between;
+    a {
+      text-decoration: none;
+      font-family: 'Open Sans Condensed';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 33px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      transition-duration: 0.3s;
+      &:hover {
+        color: colors.$gold;
+      }
+      &:active {
+        opacity: 0.75;
+        color: colors.$gold;
+      }
+    }
+  }
+  .icons {
+    margin-top: 89px;
+    width: 140px;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    a {
+      transition-duration: 0.3s;
+      &:hover {
+        transform: scale(1.1) rotate(15deg);
+      }
+      &:active {
+        opacity: 0.75;
+        transform: scale(1.1) rotate(15deg);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .burgerMenu {
+    padding: 33px;
+    .links {
+      margin-top: 40px;
+    }
+    .icons {
+      gap: 30px;
+      margin-top: 40px;
+    }
+  }
+}
