@@ -1,3 +1,5 @@
+@use '../../../../colors.scss';
+
 .posterNav {
   cursor: pointer;
   display: flex;
@@ -33,6 +35,15 @@
     }
     span {
       color: rgba(196, 196, 196, 1);
+    }
+  }
+  &:active {
+    .left,
+    .right {
+      opacity: 0.75;
+    }
+    span {
+      color: colors.$gold;
     }
   }
 }
