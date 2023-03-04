@@ -23,6 +23,10 @@ html {
   scroll-behavior: smooth;
 }
 
+textarea {
+  resize: none;
+}
+
 .app {
   min-height: 100vh;
   background: colors.$black;
