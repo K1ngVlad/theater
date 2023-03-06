@@ -1,4 +1,4 @@
-@use './colors.scss';
+@import './colors.scss';
 
 @font-face {
   font-family: 'Open Sans Condensed';
@@ -29,5 +29,5 @@ textarea {
 
 .app {
   min-height: 100vh;
-  background: colors.$black;
+  background: $black;
 }

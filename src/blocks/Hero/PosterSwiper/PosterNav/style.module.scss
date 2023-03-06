@@ -1,4 +1,4 @@
-@use '../../../../colors.scss';
+@import '../../../../colors.scss';
 
 .posterNav {
   cursor: pointer;
@@ -43,7 +43,7 @@
       opacity: 0.75;
     }
     span {
-      color: colors.$gold;
+      color: $gold;
     }
   }
 }

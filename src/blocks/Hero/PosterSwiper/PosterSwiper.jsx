@@ -7,7 +7,7 @@ import 'swiper/css/navigation';
 
 import { api } from './api';
 import s from './style.module.scss';
-import { PosterNav } from './PoserNav';
+import { PosterNav } from './PosterNav';
 
 const PosterSwiper = () => {
   return (

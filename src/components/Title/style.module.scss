@@ -1,4 +1,4 @@
-@use '../../colors.scss';
+@import '../../colors.scss';
 
 .title {
   font-family: 'Open Sans Condensed';
@@ -13,7 +13,7 @@
 }
 
 .golden {
-  color: colors.$gold;
+  color: $gold;
   font-family: 'Open Sans Condensed';
   font-weight: 300;
 }

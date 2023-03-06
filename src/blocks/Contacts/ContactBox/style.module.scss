@@ -1,4 +1,4 @@
-@use '../../../colors.scss';
+@import '../../../colors.scss';
 
 .contactBox {
   display: flex;
@@ -18,10 +18,10 @@
       transition-duration: 0.3s;
       margin-bottom: 25px;
       &:hover {
-        color: colors.$gold;
+        color: $gold;
       }
       &:active {
-        color: colors.$black;
+        color: $black;
       }
     }
   }

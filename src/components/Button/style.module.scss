@@ -1,4 +1,4 @@
-@use '../../colors.scss';
+@import '../../colors.scss';
 
 .button {
   font-family: 'Open Sans Condensed';
@@ -11,7 +11,7 @@
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  background: colors.$gold;
+  background: $gold;
   height: 50px;
   padding: 0 47px 0 47px;
   border: none;
@@ -22,6 +22,6 @@
     opacity: 0.75;
   }
   &:active {
-    background: colors.$black;
+    background: $black;
   }
 }

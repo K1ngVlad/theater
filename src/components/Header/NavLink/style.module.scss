@@ -1,4 +1,4 @@
-@use '../../../colors.scss';
+@import '../../../colors.scss';
 
 .navLink {
   font-family: 'Open Sans Condensed';
@@ -11,9 +11,9 @@
   text-decoration: none;
   transition-duration: 0.3s;
   &:hover {
-    color: colors.$gold;
+    color: $gold;
   }
   &:active {
-    color: colors.$black;
+    color: $black;
   }
 }

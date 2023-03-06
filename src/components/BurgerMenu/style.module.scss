@@ -1,4 +1,4 @@
-@use '../../colors.scss';
+@import '../../colors.scss';
 
 .burgerMenu {
   z-index: 50;
@@ -10,7 +10,7 @@
   padding: 38px;
   width: 300px;
   height: 100%;
-  background: colors.$black;
+  background: $black;
   transform: translateX(-300px);
   transition-duration: 0.5s;
   &.active {
@@ -46,11 +46,11 @@
       text-transform: uppercase;
       transition-duration: 0.3s;
       &:hover {
-        color: colors.$gold;
+        color: $gold;
       }
       &:active {
         opacity: 0.75;
-        color: colors.$gold;
+        color: $gold;
       }
     }
   }

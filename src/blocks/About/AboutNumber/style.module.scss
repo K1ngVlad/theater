@@ -1,4 +1,4 @@
-@use '../../../colors.scss';
+@import '../../../colors.scss';
 
 .aboutNumber {
   width: 255px;
@@ -27,7 +27,7 @@
       margin-bottom: 15px;
     }
     span {
-      color: colors.$gold;
+      color: $gold;
       font-family: 'Open Sans Condensed';
       font-weight: 700;
     }

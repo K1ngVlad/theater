@@ -1,4 +1,4 @@
-@use '../../colors.scss';
+@import '../../colors.scss';
 
 .header {
   z-index: 10;
@@ -45,10 +45,10 @@
   text-decoration: none;
   transition-duration: 0.3s;
   &:hover {
-    color: colors.$gold;
+    color: $gold;
   }
   &:active {
-    color: colors.$black;
+    color: $black;
   }
 }
 
@@ -60,7 +60,7 @@
   left: 0;
   width: 100%;
   height: 2px;
-  background: colors.$gold;
+  background: $gold;
 }
 
 @media screen and (max-width: 1600px) {
